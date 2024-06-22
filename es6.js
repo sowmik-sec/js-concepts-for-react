@@ -20,3 +20,11 @@ const doMath = (num1, num2) => {
   const sum = num1 + num2;
   return sum;
 };
+
+// 3. spread operator
+
+const newNumbers = [...numbers];
+newNumbers.push(99);
+
+// create a new array from an older array and add an element
+const currentNumbers = [...numbers, 66];
