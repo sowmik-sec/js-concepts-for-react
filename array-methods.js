@@ -11,3 +11,9 @@ console.log(brands);
 
 const price = products.map((product) => product.price);
 console.log(price);
+
+products.forEach((product) => console.log(product.color));
+
+products.forEach((product) => {
+  const price = product.price;
+});
