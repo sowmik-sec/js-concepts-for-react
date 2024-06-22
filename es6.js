@@ -3,6 +3,20 @@ const student = {
   name: "Sakib Khan",
   age: 45,
 };
-
+//1. template string
 const about = `My Name is ${student.name} age is ${student.age} has number ${numbers[2]}`;
 console.log(about);
+
+//2. arrow function
+const getFiftyFive = () => 55;
+
+const addSixtyFive = (num) => num + 65;
+
+const isEven = (x) => x % 2 === 0;
+
+const addThree = (a, b, c) => a + b + c;
+
+const doMath = (num1, num2) => {
+  const sum = num1 + num2;
+  return sum;
+};
