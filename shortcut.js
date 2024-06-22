@@ -22,3 +22,8 @@ if (money > 100) {
 } else {
   food = "cha biscuit";
 }
+
+// ternary
+let food1 = money > 100 ? "biryani" : "cha biscuit";
+
+let drink = money > 100 && myVar > 100 ? "Lal pani" : "sada pani";
