@@ -26,3 +26,7 @@ console.log(cheap);
 const specificName = products.filter((product) => product.name.includes("n"));
 
 console.log(specificName);
+
+// find
+const special = products.find((product) => product.price === 32000);
+console.log(special);
